@@ -31,10 +31,10 @@ const DonutTable = ({ data }) => {
                                 <td>
                                     <p>
                                         {donut.topping.map((topping, index) => (
-                                            <React.Fragment key={topping.id}>
+                                            <span key={topping.id}>
                                                 {index !== 0 && ", "}
                                                 {topping.type}
-                                            </React.Fragment>
+                                            </span>
                                         ))}
                                     </p>
                                 </td>
