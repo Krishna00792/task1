@@ -4,7 +4,6 @@ import DonutTable from './DonutTable';
 
 const App = () => {
   const donutData = [
-    // Your JSON data here[
     {
       "id": "0001",
       "type": "donut",
