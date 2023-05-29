@@ -11,8 +11,8 @@ const DonutTable = ({ data }) => {
                         <th>Type</th>
                         <th>Name</th>
                         <th>Price per Unit</th>
-                        <th>Batters</th>
-                        <th>Toppings</th>
+                        <th>Batter</th>
+                        <th>Topping</th>
                     </tr>
                 </thead>
                 <tbody>
